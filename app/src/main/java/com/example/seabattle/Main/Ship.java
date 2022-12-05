@@ -10,8 +10,8 @@ public class Ship {
     private ArrayList<int[]> shadow;
     private boolean rotatedVertically;
 
-    public Ship(int len){
-        length=len;
+    public Ship(int length){
+        this.length = length;
         rootCell=new int[]{-1,-1};
         corpus = new ArrayList<>();
         shadow = new ArrayList<>();

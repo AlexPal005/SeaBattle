@@ -29,8 +29,8 @@ public class ShipsManager {
         this.updateManager = new UpdateManager("placing_update","battle_update");
         count = 0;
     }
-    public ShipsManager(Field _shipsGrid){
-        shipsField = _shipsGrid;
+    public ShipsManager(Field shipsField){
+        this.shipsField = shipsField;
         hitField = new Field(10,10);
         hitField.fillValues(false);
 

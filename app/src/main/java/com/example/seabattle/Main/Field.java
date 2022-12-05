@@ -13,10 +13,10 @@ public class Field {
         return field;
     }
 
-    public Field(int _sizeX, int _sizeY){
-        width = _sizeX;
-        height = _sizeY;
-        field = new boolean[width][height];
+    public Field(int width, int height){
+        this.width = width;
+        this.height = height;
+        this.field = new boolean[this.width][this.height];
     }
     public Field(boolean[][] field){
 
